@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'ninjafont';
+  src: url('fonts/lastninja.ttf');
+}
+
 .game-container{
   display: flex;
   flex-direction: row;
@@ -9,4 +14,51 @@
 }
 .preload-image{
   display: none;
+}
+
+.game-screen{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  /*background-color: green;*/
+  background-image: url("../templeEntrance.png");
+  z-index: 1;
+  /*visibility: hidden;*/
+  height: 625px;
+  width: 1080px;
+
+}
+.game-screen h1{
+  font-family: 'ninjafont';
+  margin-top: 180px;
+  font-size: 20px;
+  color: white;
+}
+.game-menu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+.instructions{
+  width: 100%;
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.instructions div{
+  /*position: absolute;*/
+  padding: 40px 20px 20px 20px;
+  margin-top: 65px;
+  border: 1px solid gray;
+}
+.start-button {
+  display: flex;
+  justify-content: center;
 }
