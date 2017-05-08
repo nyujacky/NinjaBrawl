@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Ninja Brawl</title>
     <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+    <script type="text/javascript" src = "./lib/miscFuncs.js">
+
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src = "lib/bundle.js"></script>
     <link rel="stylesheet" href="images/css/master.css">
@@ -11,7 +14,7 @@
   <body >
     <div class="game-container">
       <canvas id="main-Canvas" width="1080 " height="625"></canvas>
-      <div class="game-screen">
+      <div id = "game-screen" class="game-screen">
         <div class="game-menu">
           <h1>
             Ninja Brawl
@@ -25,7 +28,7 @@
             </div>
           </div>
           <div class="start-button">
-            <button type="button" name="button">Start</button>
+            <a class = "button" href="javascript:hideMenu();">Start</a>
           </div>
         </div>
 
