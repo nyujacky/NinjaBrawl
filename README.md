@@ -1,5 +1,7 @@
 ## JS Project Proposal: NinjaBrawl
 
+[Live Demo](https://nyujacky.github.io/ninjabrawl)
+
 ### Background
 
 NinjaBrawl is a 2D game where two players play against each other and try to shoot each other down. The game ends when either one of the characters is shot down.
