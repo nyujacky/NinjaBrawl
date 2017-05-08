@@ -1,6 +1,6 @@
 ## JS Project Proposal: NinjaBrawl
 
-[Live Demo](https://nyujacky.github.io/ninjabrawl)
+[Live Demo](https://nyujacky.github.io/NinjaBrawl)
 
 ### Background
 
