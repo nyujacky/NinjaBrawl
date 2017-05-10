@@ -2,6 +2,9 @@
   font-family: 'ninjafont';
   src: url('fonts/lastninja.ttf');
 }
+body{
+  background-color: black;
+}
 
 .game-container{
   display: flex;
