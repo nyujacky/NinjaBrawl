@@ -12,45 +12,51 @@
     <link rel="stylesheet" href="images/css/master.css">
   </head>
   <body >
-    <div class="game-container">
-      <canvas id="main-Canvas" width="1080 " height="625"></canvas>
-      <div id = "game-screen" class="game-screen">
-        <div class="game-menu">
-          <h1>
-            Ninja Brawl
-          </h1>
-          <div class="instructions">
-            <div class="left-instructions">
-              <li class = "player   ">
-                Player 1
-              </li>
-              <li> W: Jump </li>
-              <li> A: Left </li>
-              <li> D: Right </li>
-              <li> R: Throw Shuriken </li>
-            </div>
-            <div class="right-instructions">
-              <li class="player">
-                Player 2
-              </li>
-              <li> Up: Jump </li>
-              <li> Left: Left </li>
-              <li> Right: Right </li>
-              <li>Shift: Throw
-                Shuriken </li>
-            </div>
-          </div>
-          <div class="start-button">
-            <a class = "button" href="javascript:hideMenu();">READY TO FIGHT</a>
-          </div>
-        </div>
 
+      <img class ="tv-background" src = "./images/tvbackground.png"/>
+      <div class="game-container">
+        <canvas id="main-Canvas" width="1080 " height="625"></canvas>
+        <div id = "game-screen" class="game-screen">
+          <div class="game-menu">
+            <h1>
+              Ninja Brawl
+            </h1>
+            <div class="instructions">
+              <div class="left-instructions">
+                <li class = "player   ">
+                  Player 1
+                </li>
+                <li> W: Jump </li>
+                <li> A: Left </li>
+                <li> D: Right </li>
+                <li> R: Throw Shuriken </li>
+              </div>
+              <div class="right-instructions">
+                <li class="player">
+                  Player 2
+                </li>
+                <li> Up: Jump </li>
+                <li> Left: Left </li>
+                <li> Right: Right </li>
+                <li>Shift: Throw
+                  Shuriken </li>
+              </div>
+            </div>
+            <div class="start-button">
+              <a class = "button" href="javascript:hideMenu();">READY TO FIGHT</a>
+            </div>
+          </div>
+
+        </div>
+        <div id = "game-end-screen" >
+
+        </div>
       </div>
-    </div>
+
     <div class = "preload-image">
       <img id = "cat-img" src="./images/ninjacat.png">
       <img id = "white-cat-img" src="./images/ninjacat-white.png" alt="">
-      <img id = "shuriken" src="./images/whiteshuriken.png" alt="">
+      <img id = "shuriken" src="./images/blueshuriken.png" alt="">
     </div>
   </body>
 </html>

@@ -3,10 +3,21 @@
   src: url('fonts/lastninja.ttf');
 }
 body{
-  background-color: black;
+  /*background-color: black;*/
+  background-image: url("../retina_wood.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tv-background{
+  position: absolute;
+  z-index: -1;
+  width: 1130px;
+  height: 1395px;
 }
 
 .game-container{
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -20,6 +31,7 @@ body{
 }
 
 .game-screen{
+
   display: flex;
   position: absolute;
   align-items: center;
