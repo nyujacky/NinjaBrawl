@@ -1,4 +1,5 @@
 @import url("game_end.css");
+@import url("health_bar.css");
 @font-face {
   font-family: 'ninjafont';
   src: url('fonts/lastninja.ttf');
@@ -27,6 +28,7 @@ body{
 #main-Canvas{
   background-image: url("../dojobackground2.jpg");
   transition: 2s;
+  
 }
 .preload-image{
   display: none;
