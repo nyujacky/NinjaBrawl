@@ -1,3 +1,4 @@
+@import url("game_end.css");
 @font-face {
   font-family: 'ninjafont';
   src: url('fonts/lastninja.ttf');
@@ -25,6 +26,7 @@ body{
 
 #main-Canvas{
   background-image: url("../dojobackground2.jpg");
+  transition: 2s;
 }
 .preload-image{
   display: none;
@@ -39,7 +41,7 @@ body{
   /*background-color: green;*/
   background-image: url("../templeEntrance.png");
   /*background: rgba(255, 255, 255, 1);*/
-  z-index: 1;
+  z-index: 2;
   opacity: 1;
   /*visibility: hidden;*/
   height: 625px;

@@ -1,0 +1,58 @@
+
+
+.game-end-screen{
+
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  /*background-color: green;*/
+  /*background-image: url("../templeEntrance.png");*/
+  /*background: rgba(255, 255, 255, 1);*/
+  z-index: 1;
+  opacity: 1;
+
+  height: 625px;
+  width: 1080px;
+  transition: 8s;
+}
+
+/*.game-end-screen h1{
+  font-family: 'ninjafont';
+  margin-top: 180px;
+  font-size: 20px;
+  color: white;
+}*/
+.game-end-screen.hide {
+  /*visibility: hidden;*/
+  /*display: none;*/
+  /*background: rgba(255, 255, 255, 0);*/
+  /*z-index: -1;*/
+  opacity: 0;
+  transition: 2s;
+}
+.game-end-screen.hide * {
+  display: none;
+}
+.game-end-menu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+
+.start-over-button {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.start-over-button a{
+  color: white;
+  text-decoration: none;
+}
+.start-over-button a:target{
+  opacity: 0;
+  transition: opacity 1s linear 300ms;
+}
