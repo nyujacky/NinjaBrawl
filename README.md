@@ -1,42 +1,23 @@
-## JS Project Proposal: NinjaBrawl
+## NinjaBrawl
 
 [Live Demo](https://nyujacky.github.io/NinjaBrawl)
 
-### Background
-
 NinjaBrawl is a 2D game where two players play against each other and try to shoot each other down. The game ends when either one of the characters is shot down.
 
-### Functionality & MVP
+## Features and Implementation
 
-With this game, users will be able to
+### Players
 
-- [ ] Start, pause, and reset the game board
-- [ ] Move player piece around
-- [ ] Shoot other player
-- [ ] Toggle and change a player's ammunition
+Player versus player is accomplished through a single player class, where separate instances of the player are created and given a unique id. They each have their own parameters, such as `xStartPos`, `yStartPos`, and `faceDirection`.
 
-### Technologies, Libraries, APIs
+### Attacks
 
-This project will be implemented with the following things:
-
-- `JavaScript` for game logic
-- `Canvas` for rendering
-- `React`for UI
-
-### Implementation Timeline
-
-**Day 1**: Setup all necessary Node modules, including getting webpack up and running. Write a basic entry file.
-
-**Day 2**: Render a character and background, and allow movement as well as shooting of projectiles.
-
-**Day 3**: Allow two character to be controlled with different buttons.
-
-**Day 4**: Allow reset of game, fully playable game.
+Each player has their own attacks, made each time the button is pressed, through CreateJS. The attack class creates a separate instance each time the button is pressed, in this case, a `shuriken` is created, unique to a player's `id`.
 
 
-### Bonus features
 
+### Future Directions for the Project
 
-- [ ] Add lives
-- [ ] Customizable character
-- [ ] Add obstacles for characters to move around
+### Lives
+### Customizable Characters
+### Add obstacles for characters to move around
