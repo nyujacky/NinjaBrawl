@@ -16,7 +16,7 @@ Each player has their own attacks, made each time the button is pressed, through
 
 
 
-### Future Directions for the Project
+## Future Directions for the Project
 
 ### Lives
 ### Customizable Characters
